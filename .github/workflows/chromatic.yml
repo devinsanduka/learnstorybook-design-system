@@ -8,6 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - run: yarn
+      - run: yarn test
       - uses: chromaui/action@v1
         with:
           projectToken: 8e026eace114
